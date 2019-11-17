@@ -27,6 +27,7 @@
 		092F6CB02380CD05007D22B0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F6CAF2380CD05007D22B0 /* ComplicationController.swift */; };
 		092F6CB22380CD05007D22B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F6CB12380CD05007D22B0 /* Assets.xcassets */; };
 		092F6CB52380CD05007D22B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F6CB42380CD05007D22B0 /* Preview Assets.xcassets */; };
+		092F6CCC2380D3AB007D22B0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F6CCB2380D3AB007D22B0 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		092F6CB42380CD05007D22B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		092F6CB62380CD05007D22B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092F6CB72380CD05007D22B0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		092F6CCB2380D3AB007D22B0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				092F6C752380CD04007D22B0 /* LaunchScreen.storyboard */,
 				092F6C782380CD04007D22B0 /* Info.plist */,
 				092F6C722380CD04007D22B0 /* Preview Content */,
+				092F6CCB2380D3AB007D22B0 /* CardView.swift */,
 			);
 			path = CookingProcedure;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 			files = (
 				092F6C6B2380CD02007D22B0 /* AppDelegate.swift in Sources */,
 				092F6C6D2380CD02007D22B0 /* SceneDelegate.swift in Sources */,
+				092F6CCC2380D3AB007D22B0 /* CardView.swift in Sources */,
 				092F6C6F2380CD02007D22B0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
