@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    var tutors: [String] = ["111", "333333"]
     var body: some View {
-        CardView(image: "swiftui-button", category: "SwiftUI", heading: "Drawing a Border with Rounded Corners", author: "Simon Ng")
+        List(0..<5) { tutor in
+            CardView(image: "swiftui-button", category: "SwiftUI", heading: "Drawing a Border with Rounded Corners", author: "Simon Ng")
+        }
     }
 }
 

@@ -28,6 +28,7 @@
 		092F6CB22380CD05007D22B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F6CB12380CD05007D22B0 /* Assets.xcassets */; };
 		092F6CB52380CD05007D22B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F6CB42380CD05007D22B0 /* Preview Assets.xcassets */; };
 		092F6CCC2380D3AB007D22B0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F6CCB2380D3AB007D22B0 /* CardView.swift */; };
+		092F6CCF2380EE47007D22B0 /* CookingProceduredetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F6CCE2380EE47007D22B0 /* CookingProceduredetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		092F6CB62380CD05007D22B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092F6CB72380CD05007D22B0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		092F6CCB2380D3AB007D22B0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		092F6CCE2380EE47007D22B0 /* CookingProceduredetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingProceduredetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				092F6C782380CD04007D22B0 /* Info.plist */,
 				092F6C722380CD04007D22B0 /* Preview Content */,
 				092F6CCB2380D3AB007D22B0 /* CardView.swift */,
+				092F6CCE2380EE47007D22B0 /* CookingProceduredetail.swift */,
 			);
 			path = CookingProcedure;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 					};
 					092F6C902380CD04007D22B0 = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 					092F6C9F2380CD05007D22B0 = {
 						CreatedOnToolsVersion = 11.2;
@@ -448,6 +452,7 @@
 				092F6C6D2380CD02007D22B0 /* SceneDelegate.swift in Sources */,
 				092F6CCC2380D3AB007D22B0 /* CardView.swift in Sources */,
 				092F6C6F2380CD02007D22B0 /* ContentView.swift in Sources */,
+				092F6CCF2380EE47007D22B0 /* CookingProceduredetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,14 +697,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2QA7J53GT;
 				IBSC_MODULE = CookingProcedure_WatchKit_Extension;
 				INFOPLIST_FILE = "CookingProcedure WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = junyakengo.CookingProcedure.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CookingProcedure/CookingProcedure WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 6.1;
@@ -711,14 +724,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2QA7J53GT;
 				IBSC_MODULE = CookingProcedure_WatchKit_Extension;
 				INFOPLIST_FILE = "CookingProcedure WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = junyakengo.CookingProcedure.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CookingProcedure/CookingProcedure WatchKit App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 6.1;
