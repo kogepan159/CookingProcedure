@@ -19,7 +19,7 @@ struct ContentView: View {
                            
                         }
                 )
-                
+                .navigationBarTitle(Text("料理一覧"))
             }
         }
     }
